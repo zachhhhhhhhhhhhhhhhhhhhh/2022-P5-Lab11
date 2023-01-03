@@ -22,7 +22,10 @@ public class Lab11avst
     public static void computePrimes(boolean primes[])
     {
         System.out.println("\nCOMPUTING PRIME NUMBERS");
-
+        int array[] = new int[100];
+        for(int k = 0; k < array.length; k++){
+            System.out.println(array[k]);
+        }
     }
 
     public static void displayPrimes(boolean primes[])
